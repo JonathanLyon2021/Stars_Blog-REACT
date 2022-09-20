@@ -55,8 +55,10 @@ test('isEditMode variable/state on the page', () => {
   expect(isEditModeElement).toBeInTheDocument();
 });
 
-test('isLoggedIn variable/state on the page', () => {
+test('is NavBar on the page', () => {
   render(<App />);
-  const isLoggedInElement = screen.querySelector(/isLoggedIn);
-  expect(isLoggedIneElement).toBeInTheDocument();
+  const NavBarElement = screen.querySelector(/NavBar);
+  expect(NavBarElement).toBeInTheDocument();
 });
+
+
