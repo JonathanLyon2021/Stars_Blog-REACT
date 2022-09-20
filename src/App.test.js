@@ -30,3 +30,9 @@ test('Login page', () => {
   const LoginElement = screen.getElement(/Login);
   expect(LoginElement).toBeInTheDocument();
 });
+
+test('Blog Details page', () => {
+  render(<App />);
+  const BlogDetailsElement = screen.getElement(/BlogDetails);
+  expect(BlogDetailsElement).toBeInTheDocument();
+});
