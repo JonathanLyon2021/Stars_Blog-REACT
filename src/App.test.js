@@ -48,3 +48,9 @@ test('Not Found page', () => {
   const FooterElement = screen.querySelector(/Footer);
   expect(FooterElement).toBeInTheDocument();
 });
+
+test('isEditMode on the page', () => {
+  render(<App />);
+  const isEditModeElement = screen.querySelector(/isEditMode);
+  expect(isEditModeElement).toBeInTheDocument();
+});
