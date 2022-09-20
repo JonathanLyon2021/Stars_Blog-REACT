@@ -42,3 +42,9 @@ test('Not Found page', () => {
   const NotFoundElement = screen.getElement(/NotFound);
   expect(NotFoundElement).toBeInTheDocument();
 });
+
+test('Not Found page', () => {
+  render(<App />);
+  const FooterElement = screen.querySelector(/Footer);
+  expect(FooterElement).toBeInTheDocument();
+});
