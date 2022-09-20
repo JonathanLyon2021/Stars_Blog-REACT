@@ -12,3 +12,9 @@ test('create page', () => {
   const CreateElement = screen.getElement(/Create);
   expect(CreateElement).toBeInTheDocument();
 });
+
+test('About page', () => {
+  render(<App />);
+  const AboutElement = screen.getElement(/About);
+  expect(AboutElement).toBeInTheDocument();
+});
