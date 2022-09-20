@@ -49,7 +49,7 @@ test('Not Found page', () => {
   expect(FooterElement).toBeInTheDocument();
 });
 
-test('isEditMode on the page', () => {
+test('isEditMode variable/state on the page', () => {
   render(<App />);
   const isEditModeElement = screen.querySelector(/isEditMode);
   expect(isEditModeElement).toBeInTheDocument();
