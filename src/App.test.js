@@ -36,3 +36,9 @@ test('Blog Details page', () => {
   const BlogDetailsElement = screen.getElement(/BlogDetails);
   expect(BlogDetailsElement).toBeInTheDocument();
 });
+
+test('Not Found page', () => {
+  render(<App />);
+  const NotFoundElement = screen.getElement(/NotFound);
+  expect(NotFoundElement).toBeInTheDocument();
+});
