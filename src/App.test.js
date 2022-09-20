@@ -24,3 +24,9 @@ test('Registration page', () => {
   const RegistrationElement = screen.getElement(/Registiration);
   expect(RegistrationElement).toBeInTheDocument();
 });
+
+test('Login page', () => {
+  render(<App />);
+  const LoginElement = screen.getElement(/Login);
+  expect(LoginElement).toBeInTheDocument();
+});
