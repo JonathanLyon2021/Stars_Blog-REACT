@@ -54,3 +54,9 @@ test('isEditMode on the page', () => {
   const isEditModeElement = screen.querySelector(/isEditMode);
   expect(isEditModeElement).toBeInTheDocument();
 });
+
+test('isLoggedIn variable/state on the page', () => {
+  render(<App />);
+  const isLoggedInElement = screen.querySelector(/isLoggedIn);
+  expect(isLoggedIneElement).toBeInTheDocument();
+});
