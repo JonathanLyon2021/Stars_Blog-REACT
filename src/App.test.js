@@ -61,4 +61,9 @@ test('is NavBar on the page', () => {
   expect(NavBarElement).toBeInTheDocument();
 });
 
+test('is Home page on the page', () => {
+  render(<App />);
+  const HomeElement = screen.querySelector(/Home);
+  expect(HomeElement).toBeInTheDocument();
+});
 
