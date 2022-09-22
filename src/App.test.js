@@ -54,13 +54,11 @@ test('isEditMode variable/state on the page', () => {
   const isEditModeElement = screen.querySelector(/isEditMode);
   expect(isEditModeElement).toBeInTheDocument();
 });
-
 test('is NavBar on the page', () => {
   render(<App />);
   const NavBarElement = screen.querySelector(/NavBar);
   expect(NavBarElement).toBeInTheDocument();
 });
-
 test('is Home page on the page', () => {
   render(<App />);
   const HomeElement = screen.querySelector(/Home);
