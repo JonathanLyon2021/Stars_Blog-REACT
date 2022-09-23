@@ -33,14 +33,16 @@ test('Login page', () => {
 
 test('Blog Details page', () => {
   render(<App />);
-  const BlogDetailsElement = screen.getElement(/BlogDetails);
+  const BlogDetailsElement = screen.getElement(/BlogDetails/);
   expect(BlogDetailsElement).toBeInTheDocument();
 });
+
 test('Not Found page', () => {
   render(<App />);
-  const NotFoundElement = screen.getElement(/NotFound);
+  const NotFoundElement = screen.getElement(/NotFound/);
   expect(NotFoundElement).toBeInTheDocument();
 });
+
 test('Not Found page', () => {
   render(<App />);
   const FooterElement = screen.querySelector(/Footer);
