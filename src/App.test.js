@@ -6,26 +6,31 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
 test('create page', () => {
   render(<App />);
-  const CreateElement = screen.getElement(/Create);
+  const CreateElement = screen.getElement(/Create/);
   expect(CreateElement).toBeInTheDocument();
 });
+
 test('About page', () => {
   render(<App />);
-  const AboutElement = screen.getElement(/About);
+  const AboutElement = screen.getElement(/About/);
   expect(AboutElement).toBeInTheDocument();
 });
+
 test('Registration page', () => {
   render(<App />);
-  const RegistrationElement = screen.getElement(/Registiration);
+  const RegistrationElement = screen.getElement(/Registiration/);
   expect(RegistrationElement).toBeInTheDocument();
 });
+
 test('Login page', () => {
   render(<App />);
   const LoginElement = screen.getElement(/Login);
   expect(LoginElement).toBeInTheDocument();
 });
+
 test('Blog Details page', () => {
   render(<App />);
   const BlogDetailsElement = screen.getElement(/BlogDetails);
