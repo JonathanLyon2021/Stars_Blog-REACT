@@ -27,7 +27,7 @@ test('Registration page', () => {
 
 test('Login page', () => {
   render(<App />);
-  const LoginElement = screen.getElement(/Login);
+  const LoginElement = screen.getElement(/Login/);
   expect(LoginElement).toBeInTheDocument();
 });
 
@@ -45,9 +45,10 @@ test('Not Found page', () => {
 
 test('Not Found page', () => {
   render(<App />);
-  const FooterElement = screen.querySelector(/Footer);
+  const FooterElement = screen.querySelector(/Footer/);
   expect(FooterElement).toBeInTheDocument();
 });
+
 test('isEditMode variable/state on the page', () => {
   render(<App />);
   const isEditModeElement = screen.querySelector(/isEditMode);
