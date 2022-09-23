@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I choose this project because I like hockey and particularly the Dallas Stars who play in the National Hockey League. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I choose this project because I like hockey and particularly the Dallas Stars who play in the National Hockey League. I choseto do this project because I just graduated Full-Stack @ Kingsland University and I wanted to do antoher project. This one just involves my favorite hockey team. Thanks for stopping by!!
 
 ## Available Scripts
 
