@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # About the Project
 
-This is a fully functional Blog Page, with a **Home** page, **History** page, **Sign-up** page, **Login**, **Logout**, & **New Blog** page also.
+This is a fully functional Blog Page, with a **Home** page, **History** page, **Sign-up** page, **Login**, **Logout**, & **New Blog** page also. Clone the project in youe CLI.
 
 # Install Libraries
 
-Install the concurrent library with *npm install concurrent*
+Install the concurrent library with **npm install concurrent**
 
 # What I Learned
 
