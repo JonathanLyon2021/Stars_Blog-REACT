@@ -10,6 +10,12 @@ This is a fully functional Blog Page, with a **Home** page, **History** page, **
 
 Install the concurrent library with *npm install concurrent*
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# What I Learned
 
-I did this webpage because I needed some more practice with React.js and also(of course) I love the Dallas Stars(NHL) hockey team! This webpage is functioning correctly. Thank you for visiting my repositiory!
+This repository was based on building a Blog website where you can create(post) blogs, read(get) blogs, append(put, patch) blogs. I learned better ways of inserting images into the Blog, also I learned better CSS practices.
+I did this webpage because I needed some more practice with React.js and also(of course) I love the Dallas Stars(NHL) hockey team! Thank you for visiting my repositiory!
+
+# Languages
+- JavaScript
+- REACT.js
+
