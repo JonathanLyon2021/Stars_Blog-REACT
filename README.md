@@ -19,3 +19,5 @@ I did this webpage because I needed some more practice with React.js and also(of
 - JavaScript
 - REACT.js
 
+Thgis repository is finished overall. The code works and the packages/libraries installl just fine. I will be updating this repoistory in the near future. Thank you for viewing my repo!
+
